@@ -22,3 +22,7 @@ var samples = {
     }
   }
 };
+
+samples.ListCtrl.$inject = ['$scope', 'Sample'];
+samples.NewCtrl.$inject = ['$scope', 'Sample', '$location'];
+samples.ShowCtrl.$inject = ['$scope', 'Sample', '$location', '$routeParams'];
