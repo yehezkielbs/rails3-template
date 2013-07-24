@@ -23,6 +23,6 @@ var samples = {
   }
 };
 
-samples.ListCtrl.$inject = ['$scope', 'Sample'];
-samples.NewCtrl.$inject = ['$scope', 'Sample', '$location'];
-samples.ShowCtrl.$inject = ['$scope', 'Sample', '$location', '$routeParams'];
+samples.ListCtrl.$inject = ['$scope'];
+samples.NewCtrl.$inject = ['$scope', '$location'];
+samples.ShowCtrl.$inject = ['$scope', '$location', '$routeParams'];
