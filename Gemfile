@@ -48,4 +48,5 @@ group :development, :test do
   gem 'database_cleaner'
   #gem 'capybara-webkit'
   gem 'selenium-webdriver'
+  gem 'teaspoon'
 end
