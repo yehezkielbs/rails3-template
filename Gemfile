@@ -8,6 +8,7 @@ gem 'rails', '3.2.13'
 
 gem 'mysql2'
 gem 'haml-rails'
+gem 'angularjs-rails'
 
 
 # Gems used only for assets and not required
@@ -45,4 +46,6 @@ group :development, :test do
   gem 'factory_girl_rails'
   gem 'cucumber-rails', :require => false
   gem 'database_cleaner'
+  #gem 'capybara-webkit'
+  gem 'selenium-webdriver'
 end
